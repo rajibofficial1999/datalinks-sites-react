@@ -6,6 +6,6 @@ import VideoCallingApplication from './VideoCallingApplication.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <VideoCallingApplication />
+    <MegaApplication />
   </StrictMode>,
 )
