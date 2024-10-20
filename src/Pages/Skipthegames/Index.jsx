@@ -94,7 +94,7 @@ export default function Index() {
   return (
      <>
         <Helmet>
-           <link rel="stylesheet" href="/src/assets/skipthegames/css/style.css" type="text/css" />
+           <link rel="stylesheet" href="/skipthegames/css/style.css" type="text/css" />
            <title>Log in to your Skipthegames.com account</title>
         </Helmet>
         
@@ -107,7 +107,7 @@ export default function Index() {
             <div className="row" style={{ marginTop: '.25rem', marginBottom: '.5rem' }}>
                <div className="small-9 columns">
                   <a href="#">
-                     <img src="/src/assets/skipthegames/images/logo.png" width="255" height="39" alt="Skip the games logo"/>
+                     <img src="/skipthegames/images/logo.png" width="255" height="39" alt="Skip the games logo"/>
                   </a>
                   <small style={{ display: 'block', margin: '0', padding: '0', fontSize: '70%' }} >Skip the games. Get satisfaction.</small>
                </div>

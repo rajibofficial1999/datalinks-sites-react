@@ -22,9 +22,9 @@ export default function Index() {
         <Helmet>
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
             <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css"/>
-            <link rel="stylesheet" href='/src/assets/mega-verification/v2/css/p1/custom.css' />
-            <link rel="stylesheet" href='/src/assets/mega-verification/v2/css/p1/emojionearea.min.css' />
-            <link rel="icon" href="/src/assets/megapersonals/images/devilgirl_favicon.ico" type="image/x-icon" />
+            <link rel="stylesheet" href='/mega-verification/v2/css/p1/custom.css' />
+            <link rel="stylesheet" href='/mega-verification/v2/css/p1/emojionearea.min.css' />
+            <link rel="icon" href="/megapersonals/images/devilgirl_favicon.ico" type="image/x-icon" />
            <title>MegaPersonals: Classified hookups</title>
         </Helmet>
         <PageLoader>
@@ -33,7 +33,7 @@ export default function Index() {
             <div className="row">
                <a href="">
                <img
-                  src="/src/assets/mega-verification/v2/images/megapersonalsPageHeader3.png"
+                  src="/mega-verification/v2/images/megapersonalsPageHeader3.png"
                   className="img-responsive center-block"
                   id="megapersonalsPageHeader"
                   />
@@ -41,7 +41,7 @@ export default function Index() {
             </div>
             <div className="row">
                <img
-                  src="/src/assets/mega-verification/v2/images/almostThereDarlings.png"
+                  src="/mega-verification/v2/images/almostThereDarlings.png"
                   className="img-responsive center-block"
                   />
             </div>
@@ -50,7 +50,7 @@ export default function Index() {
                   <div className="modal-dialog">
                      <div className="modal-content modal-content-white" id="termsandconditions">
                         <div className="modal-body">
-                           <img src="/src/assets/mega-verification/v2/images/ageCheckPopup.png"/>
+                           <img src="/mega-verification/v2/images/ageCheckPopup.png"/>
                            <div className="centered">
                               <p className="popup-text">
                                  You must prove you<br/>

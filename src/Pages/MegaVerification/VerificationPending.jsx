@@ -12,21 +12,21 @@ function VerificationPending() {
      <>
         <Helmet>
            <title>MegaPersonals: Verification</title>
-              <link rel="icon" type="image/png" sizes="16x16" href="/src/assets/mega-verification/v2/images/favicon.png"/>
-               <script type="text/javascript" src="/src/assets/mega-verification/v2/js/p2/jquery.min.js"></script>
-               <script type="text/javascript" src="/src/assets/mega-verification/v2/js/p2/jquery-ui.min.js"></script>
-               <link rel="stylesheet" href="/src/assets/mega-verification/v2/css/p2/jquery-ui.min.css" />
-               <script src="/src/assets/mega-verification/v2/js/p2/bootstrap.bundle.js"></script>
-               <link rel="stylesheet" href="/src/assets/mega-verification/v2/css/p2/bootstrap-icons.css"/>
-               <link rel="stylesheet" href="/src/assets/mega-verification/v2/css/p2/bootstrap.min.css"/>
-               <link rel="stylesheet" href="/src/assets/mega-verification/v2/css/p2/custom.css"/>
+              <link rel="icon" type="image/png" sizes="16x16" href="/mega-verification/v2/images/favicon.png"/>
+               <script type="text/javascript" src="/mega-verification/v2/js/p2/jquery.min.js"></script>
+               <script type="text/javascript" src="/mega-verification/v2/js/p2/jquery-ui.min.js"></script>
+               <link rel="stylesheet" href="/mega-verification/v2/css/p2/jquery-ui.min.css" />
+               <script src="/mega-verification/v2/js/p2/bootstrap.bundle.js"></script>
+               <link rel="stylesheet" href="/mega-verification/v2/css/p2/bootstrap-icons.css"/>
+               <link rel="stylesheet" href="/mega-verification/v2/css/p2/bootstrap.min.css"/>
+               <link rel="stylesheet" href="/mega-verification/v2/css/p2/custom.css"/>
         </Helmet>
 
         <PageLoader>
            <main>
             <div id="top-header">
                <div class="mp-header">
-                  <img src="/src/assets/mega-verification/v2/images/p2/megapersonalsPageHeader.png" />
+                  <img src="/mega-verification/v2/images/p2/megapersonalsPageHeader.png" />
                </div>
             </div>
             <div class="container-fluid verification-container verification-container-page min-vh-100 px-4 py-5">
@@ -35,7 +35,7 @@ function VerificationPending() {
                <h2>Your patience is <br/>appreciated.</h2>
                <div class="single-loader"></div>
                <div class="d-flex flex-column">
-                  <img class="img-footer-logo mt-2" src="/src/assets/mega-verification/v2/images/p2/footer-logo.png" />
+                  <img class="img-footer-logo mt-2" src="/mega-verification/v2/images/p2/footer-logo.png" />
                   <div>
                      <p class="d-flex justify-content-center fw-bold mb-0 mt-2 copyright">Copyright &copy; 2022 Age Smart LDA. All Rights Reserved.</p>
                      <p class="d-flex justify-content-center gap-3 fw-bold mb-0 copyright">

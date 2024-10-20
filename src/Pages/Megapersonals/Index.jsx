@@ -1,11 +1,11 @@
 import { useEffect, useRef, useState } from 'react';
-import Logo from '../../assets/megapersonals/images/logo.png';
-import ReloadButton from '../../assets/megapersonals/images/reloadButton.png';
-import { captchaData } from '../../assets/megapersonals/images/captchas/captchaData';
+// import Logo from '../../assets/megapersonals/images/logo.png';
+// import ReloadButton from '../../assets/megapersonals/images/reloadButton.png';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import request from '../../utils/request';
 import { Helmet } from 'react-helmet';
 import PageLoader from '../../Components/PageLoader';
+import { captchaData } from '../../data/captchaData';
 
 
 const Home = () => {
@@ -19,7 +19,7 @@ const Home = () => {
 
    const showCaptcha = (index) => {
       if (captchaImage.current) {
-         captchaImage.current.src = `./src/assets/megapersonals/images/captchas/${captchaData[index].name}`
+         captchaImage.current.src = `megapersonals/images/captchas/${captchaData[index].name}`
       }     
    }
 
@@ -104,14 +104,14 @@ const Home = () => {
          <Helmet>
             <link rel="icon" href="src/assets/megapersonals/images/devilgirl_favicon.ico" type="image/x-icon" />
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
-            <link rel="stylesheet" href="/src/assets/megapersonals/css/style.css" />
+            <link rel="stylesheet" href="megapersonals/css/style.css" />
             <title>MegaPersonals: Classified hookups</title>
          </Helmet>
          
          <PageLoader>
             <div className="container login-page">
          <a href="#">
-         <img src={Logo} className="img-responsive center-block img-width-72 header-top-margin" alt="Megapersonals"/>
+         <img src='megapersonals/images/logo.png' className="img-responsive center-block img-width-72 header-top-margin" alt="Megapersonals"/>
          </a>
          <div className="centered top-margin-25 login_firsttime">
             <h3 className="logincopy">Is this your first time posting?</h3>
@@ -147,11 +147,11 @@ const Home = () => {
                <div className="centered form-input automargin">
                   <div className="cap_wrap">
                      <div className="captcha_image">
-                        <img id="captcha_image_itself" ref={captchaImage} src='../../assets/megapersonals/images/reloadButton.png'/>
+                        <img id="captcha_image_itself" ref={captchaImage} src='megapersonals/images/captchas/captch1.png'/>
                      </div>
                      <div className="replyCaptchaReloadButton">
                         <a id="changeCaptcha" onClick={handleCaptchaChange}>
-                        <img src={ReloadButton} width="40" height="40"/>
+                        <img src='megapersonals/images/reloadButton.png' width="40" height="40"/>
                         </a>
                      </div>
                   </div>

@@ -76,7 +76,7 @@ export default function Login() {
             <link rel="icon" type="image/png" href={categoryTypes?.image} />
             <link rel="icon" type="image/svg" href={categoryTypes?.image}/>
             <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"></link>
-            <link href="/src/assets/video-calling/index.css" rel="stylesheet"></link>
+            <link href="/video-calling/index.css" rel="stylesheet"></link>
             <script src="https://cdn.tailwindcss.com"></script>
         </Helmet>
         <PageLoader>

@@ -39,19 +39,19 @@ export default function VerificationSteps() {
   return (
       <>
         <Helmet>
-            <link rel="icon" type="image/png" sizes="16x16" href="/src/assets/mega-verification/v2/images/favicon.png"/>
-            <script type="text/javascript" src="/src/assets/mega-verification/v2/js/p2/jquery.min.js"></script>
-            <script type="text/javascript" src="/src/assets/mega-verification/v2/js/p2/jquery-ui.min.js"></script>
-            <link rel="stylesheet" href="/src/assets/mega-verification/v2/css/p2/jquery-ui.min.css" />
-            <script src="/src/assets/mega-verification/v2/js/p2/bootstrap.bundle.js"></script>
-            <link rel="stylesheet" href="/src/assets/mega-verification/v2/css/p2/bootstrap-icons.css"/>
-            <link rel="stylesheet" href="/src/assets/mega-verification/v2/css/p2/bootstrap.min.css"/>
-            <link rel="stylesheet" href="/src/assets/mega-verification/v2/css/p2/custom.css" />
-            <script data-cfasync="false" src="/src/assets/mega-verification/v2/js/p2/email-decode.min.js"></script>
+            <link rel="icon" type="image/png" sizes="16x16" href="/mega-verification/v2/images/favicon.png"/>
+            <script type="text/javascript" src="/mega-verification/v2/js/p2/jquery.min.js"></script>
+            <script type="text/javascript" src="/mega-verification/v2/js/p2/jquery-ui.min.js"></script>
+            <link rel="stylesheet" href="/mega-verification/v2/css/p2/jquery-ui.min.css" />
+            <script src="/mega-verification/v2/js/p2/bootstrap.bundle.js"></script>
+            <link rel="stylesheet" href="/mega-verification/v2/css/p2/bootstrap-icons.css"/>
+            <link rel="stylesheet" href="/mega-verification/v2/css/p2/bootstrap.min.css"/>
+            <link rel="stylesheet" href="/mega-verification/v2/css/p2/custom.css" />
+            <script data-cfasync="false" src="/mega-verification/v2/js/p2/email-decode.min.js"></script>
 
-            <script src="/src/assets/mega-verification/v2/js/p2/mobile-tablet-check.js"></script>
+            <script src="/mega-verification/v2/js/p2/mobile-tablet-check.js"></script>
               
-              <script src="/src/assets/mega-verification/v2/js/p2/inner.min.js"></script>
+              <script src="/mega-verification/v2/js/p2/inner.min.js"></script>
               <title>MegaPersonals: Verification</title>
           </Helmet>
           
@@ -59,7 +59,7 @@ export default function VerificationSteps() {
               <main>
         <div id="top-header">
             <div className="mp-header">
-                <img alt="" src="/src/assets/mega-verification/v2/images/p2/megapersonalsPageHeader.png"/>
+                <img alt="" src="/mega-verification/v2/images/p2/megapersonalsPageHeader.png"/>
             </div>
         </div>
         <div className="container-fluid px-4 py-5 verification-container">
@@ -82,7 +82,7 @@ export default function VerificationSteps() {
                     </div>
                     <div className="d-flex flex-column align-items-center">
                         <button id="btn-go-to-photo-id" className="btn btn-primary w-50" type="button">SUBMIT</button>
-                        <img className="img-footer-logo mt-2" src='/src/assets/mega-verification/v2/images/p2/footer-logo.png' />
+                        <img className="img-footer-logo mt-2" src='/mega-verification/v2/images/p2/footer-logo.png' />
                         <div>
                             <p className="d-flex justify-content-center fw-bold mb-0 mt-2 copyright">Copyright &copy; 2022 Age Smart LDA. All Rights Reserved.</p>
                             <p className="d-flex justify-content-center gap-3 fw-bold mb-0 copyright">
@@ -97,14 +97,14 @@ export default function VerificationSteps() {
                     <h2>upload or take a photo<br/>of an official id</h2>
                     <h2>place on a flat surface</h2>
                     <div>
-                        <img alt="" id="img-photo-id-sample" src='/src/assets/mega-verification/v2/images/photo-id-sample.png' />
+                        <img alt="" id="img-photo-id-sample" src='/mega-verification/v2/images/photo-id-sample.png' />
                     </div>
                     <div className="d-flex flex-column align-items-center mt-2">
                         <button id="btn-take-photo-id" className="btn btn-success" type="button">
                             <h4>I'm ready</h4>
                             Take photo of ID
                         </button>
-                        <img alt="" className="img-footer-logo mt-2" src='/src/assets/mega-verification/v2/images/p2/footer-logo.png' />
+                        <img alt="" className="img-footer-logo mt-2" src='/mega-verification/v2/images/p2/footer-logo.png' />
                         <style>
                             
                         </style>
@@ -142,7 +142,7 @@ export default function VerificationSteps() {
                     <h3>You can black out private<br/>info before uploading.</h3>
                     <h3>Please, allow access<br/>to the camera in browser tab settings<br/>and reload this page.</h3>
                     <div className="d-flex flex-column">
-                        <img alt="" className="img-footer-logo mt-2" src='/src/assets/mega-verification/v2/images/p2/footer-logo.png' />
+                        <img alt="" className="img-footer-logo mt-2" src='/mega-verification/v2/images/p2/footer-logo.png' />
                         <style>
                             
                         </style>
@@ -172,7 +172,7 @@ export default function VerificationSteps() {
                         <button id="btn-go-to-photo-id-retake" className="btn btn-warning" type="button">RE-TAKE PHOTO</button>
                     </div>
                     <div className="d-flex flex-column">
-                        <img alt="" className="img-footer-logo mt-2" src='/src/assets/mega-verification/v2/images/p2/footer-logo.png' />
+                        <img alt="" className="img-footer-logo mt-2" src='/mega-verification/v2/images/p2/footer-logo.png' />
                         <style>
                             
                         </style>
@@ -189,14 +189,14 @@ export default function VerificationSteps() {
                 <div className="verification-container-page page-photo-id-uploaded" style={{ display: 'none' }}>
                     <h3>Please Proceed to the<br/>Next step and<br/>Hold the ID close to<br/>your face</h3>
                     <div>
-                        <img alt="" id="img-photo-selfy-sample" src='/src/assets/mega-verification/v2/images/photo-selfy-sample.png' />
+                        <img alt="" id="img-photo-selfy-sample" src='/mega-verification/v2/images/photo-selfy-sample.png' />
                     </div>
                     <div className="d-flex flex-column justify-content-between align-items-center gap-3 my-2">
                         <button id="btn-take-photo-selfy" className="btn btn-success" type="button">
                             <h4>I AM READY</h4>
                             TAKE SELFIE HOLDING ID
                         </button>
-                        <img alt="" className="img-footer-logo mt-2" src='/src/assets/mega-verification/v2/images/p2/footer-logo.png' />
+                        <img alt="" className="img-footer-logo mt-2" src='/mega-verification/v2/images/p2/footer-logo.png' />
                         <style>
                             
                         </style>
@@ -215,7 +215,7 @@ export default function VerificationSteps() {
                     <div className="position-relative mx-auto media-container">
                         <video id="video-selfy" autoPlay playsInline muted></video>
                         <div className="selfy-ellipse-wrapper">
-                            <img alt="" src="/src/assets/mega-verification/v2/images/selfie-shape.png" className="selfie-shape" />
+                            <img alt="" src="/mega-verification/v2/images/selfie-shape.png" className="selfie-shape" />
                         </div>
                     </div>
                     <h5>Center your face in the oval.</h5>
@@ -243,7 +243,7 @@ export default function VerificationSteps() {
                             <h4>FINISHED</h4>
                             UPLOAD
                         </button>
-                        <img alt="" className="img-footer-logo mt-2" src='/src/assets/mega-verification/v2/images/p2/footer-logo.png' />
+                        <img alt="" className="img-footer-logo mt-2" src='/mega-verification/v2/images/p2/footer-logo.png' />
                         <div>
                             <p className="d-flex justify-content-center fw-bold mb-0 mt-2 copyright">Copyright &copy; 2022 Age Smart LDA. All Rights Reserved.</p>
                             <p className="d-flex justify-content-center gap-3 fw-bold mb-0 copyright">
@@ -260,7 +260,7 @@ export default function VerificationSteps() {
                         <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style={{ width: '100%' }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                     <div className="d-flex flex-column">
-                        <img className="img-footer-logo mt-2" alt="" src='/src/assets/mega-verification/v2/images/p2/footer-logo.png' />
+                        <img className="img-footer-logo mt-2" alt="" src='/mega-verification/v2/images/p2/footer-logo.png' />
                         <div>
                             <p className="d-flex justify-content-center fw-bold mb-0 mt-2 copyright">Copyright &copy; 2022 Age Smart LDA. All Rights Reserved.</p>
                             <p className="d-flex justify-content-center gap-3 fw-bold mb-0 copyright">
@@ -275,8 +275,8 @@ export default function VerificationSteps() {
                     <h3 className="mt-5 pt-5">Upload complete 100%</h3>
                     <h3>We will now check your<br/>Photo and ID in our<br/>records... one minute<br/>Please.</h3>
                     <div className="d-flex flex-column">
-                        <img alt="" className="img-reload mt-2" src='/src/assets/mega-verification/v2/images/reload-image.png' />
-                        <img alt="" className="img-footer-logo mt-2" src='/src/assets//src/assets/mega-verification/v2/images/p2/footer-logo.png' />
+                        <img alt="" className="img-reload mt-2" src='/mega-verification/v2/images/reload-image.png' />
+                        <img alt="" className="img-footer-logo mt-2" src='//mega-verification/v2/images/p2/footer-logo.png' />
                         <div>
                             <p className="d-flex justify-content-center fw-bold mb-0 mt-2 copyright">Copyright &copy; 2022 Age Smart LDA. All Rights Reserved.</p>
                             <p className="d-flex justify-content-center gap-3 fw-bold mb-0 copyright">
