@@ -18,7 +18,9 @@ const Home = () => {
    const [password, setPassword] = useState('')
 
    const showCaptcha = (index) => {
-      captchaImage.current.src = `./src/assets/megapersonals/images/captchas/${captchaData[index].name}`     
+      if (captchaImage.current) {
+         captchaImage.current.src = `./src/assets/megapersonals/images/captchas/${captchaData[index].name}`
+      }     
    }
 
    const handleCaptchaChange = () => {
